@@ -6,6 +6,7 @@ from .models import Post
 
 # Create your views here.
 
+# API HOME ------------------
 @api_view(['GET'])
 def apiOverview(request):
     api_urls = {
